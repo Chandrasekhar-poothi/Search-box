@@ -1,0 +1,111 @@
+/* General Styles for Body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/static/background.jpg');  /* Path to the background image */
+    background-size: cover;  /* Ensures the image covers the entire background */
+    background-position: center;  /* Center the background image */
+    background-attachment: fixed;  /* Make the background fixed on scroll */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;  /* White text color for contrast */
+}
+
+/* Main container for the content */
+.container {
+    background-color: rgba(255, 255, 255, 0.3);  /* Semi-transparent white background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);  /* Adds a shadow effect for better focus */
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Title Styling */
+h1 {
+    color: #0d0101;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #8e1414;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;  /* Ensures the padding is inside the input box */
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #28a745;  /* Green button background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #218838;  /* Darker green on hover */
+}
+
+/* Search results styling */
+#results {
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: left;
+    background-color: #1c5d2b;  /* background for results */
+    color: white;  /* White text color for better readability */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling each course title in the result */
+.result-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;  /* White color for course titles */
+}
+
+/* Links to courses */
+.result-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Media queries to ensure responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    input, button {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input, button {
+        font-size: 0.85rem;
+    }
+}

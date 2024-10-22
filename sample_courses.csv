@@ -1,0 +1,157 @@
+title,description
+Python for Beginners,Learn the basics of Python programming from scratch.
+Java Programming Basics,An introduction to Java programming for beginners.
+Advanced C++ Techniques,Explore advanced concepts and techniques in C++.
+Data Structures and Algorithms in Java,Learn about various data structures and algorithms using Java.
+Introduction to JavaScript,A beginner's guide to JavaScript and web development.
+Mastering SQL for Data Science,Understand SQL concepts and how to apply them in data analysis.
+Frontend Development with HTML & CSS,Build beautiful web pages using HTML and CSS.
+Python Data Analysis,Analyze data using Python libraries like Pandas and NumPy.
+Full Stack Development with MERN Stack,"Learn to build web applications using MongoDB, Express, React, and Node.js."
+Data Structures in Python,Understand different data structures and their applications in Python.
+Ruby on Rails for Web Development,Develop web applications using the Ruby on Rails framework.
+Introduction to Machine Learning,An overview of machine learning concepts and techniques.
+Building RESTful APIs with Node.js,Create RESTful APIs using Node.js and Express.
+Android App Development with Kotlin,Develop Android applications using Kotlin programming language.
+Data Visualization with Tableau,Learn to visualize data effectively using Tableau software.
+Swift Programming for iOS Development,Build iOS applications using Swift programming language.
+Git and GitHub for Version Control,Understand version control concepts using Git and GitHub.
+Cloud Computing Fundamentals,Learn the basics of cloud computing and its services.
+Cybersecurity Basics,An introduction to cybersecurity principles and practices.
+Introduction to Web Development,Explore the fundamentals of web development and technologies.
+PHP for Web Development,Learn PHP programming for web development and dynamic sites.
+Introduction to Data Science,A beginner's guide to data science concepts and methodologies.
+Advanced Java Programming,Explore advanced concepts in Java programming.
+CSS Flexbox and Grid Layouts,Learn to create responsive web layouts using CSS Flexbox and Grid.
+Introduction to R for Data Analysis,Analyze data using R programming language and packages.
+Networking Fundamentals,Understand the basics of computer networking.
+Introduction to AI with Python,Explore artificial intelligence concepts using Python.
+Vue.js for Beginners,Build user interfaces using Vue.js JavaScript framework.
+Introduction to Ethical Hacking,Learn ethical hacking techniques and penetration testing.
+Software Testing and Automation,Understand software testing principles and automation tools.
+JavaScript ES6 Features,Learn about the new features of JavaScript ES6.
+Data Mining Techniques,Explore various data mining techniques and applications.
+Introduction to Flask for Web Development,Build web applications using Flask framework in Python.
+TensorFlow for Deep Learning,Understand deep learning concepts using TensorFlow library.
+Advanced SQL Techniques,Explore advanced SQL queries and database optimization.
+Basics of Blockchain Technology,An introduction to blockchain technology and its applications.
+Python for Data Science and Machine Learning,"Combine Python, data science, and machine learning techniques."
+Web Scraping with BeautifulSoup,Learn web scraping techniques using BeautifulSoup in Python.
+Introduction to Quantum Computing,Explore the basics of quantum computing and its principles.
+C# Programming for Beginners,Learn the fundamentals of C# programming language.
+Data Analysis with Pandas,Analyze and manipulate data using Pandas library in Python.
+Introduction to UX/UI Design,Understand user experience and user interface design principles.
+Natural Language Processing with NLTK,Explore natural language processing techniques using NLTK.
+Getting Started with Arduino,Learn to program Arduino for hardware projects.
+GitHub Actions for CI/CD,Implement CI/CD using GitHub Actions for automation.
+Mobile App Development with Flutter,Build cross-platform mobile applications using Flutter.
+Introduction to 3D Modeling with Blender,Create 3D models using Blender software.
+Introduction to Game Development,Learn the fundamentals of game development concepts.
+React Native for Mobile Apps,Develop mobile applications using React Native framework.
+Cybersecurity Risk Management,Understand risk management principles in cybersecurity.
+Introduction to Internet of Things (IoT),Explore IoT concepts and applications.
+Advanced Data Visualization with D3.js,Create interactive data visualizations using D3.js library.
+AI-Powered Chatbots with Dialogflow,Build intelligent chatbots using Dialogflow.
+Python for Data Engineering,Learn data engineering concepts using Python.
+Introduction to Selenium for Web Testing,Automate web testing using Selenium framework.
+Data Structures in C++,Understand data structures using C++.
+Introduction to Kubernetes,Explore container orchestration using Kubernetes.
+Data Science Capstone Project,Apply data science skills in a capstone project.
+Introduction to Cybersecurity Frameworks,Understand various cybersecurity frameworks and their applications.
+Java GUI Development with Swing,Create graphical user interfaces in Java using Swing.
+Game Development with Unity,Learn to develop games using Unity game engine.
+Ethical Hacking Tools and Techniques,Explore various ethical hacking tools and their applications.
+Introduction to API Development,Learn the fundamentals of API development and integration.
+Introduction to Augmented Reality,Understand the basics of augmented reality applications.
+Introduction to Data Warehousing,Explore data warehousing concepts and methodologies.
+Time Series Analysis with Python,Analyze time series data using Python.
+Introduction to Apache Spark,Understand big data processing using Apache Spark.
+Java for Android Development,Learn Java programming for Android application development.
+Introduction to Git for Beginners,Learn the basics of Git version control system.
+Introduction to Digital Marketing,Explore digital marketing strategies and techniques.
+Building Microservices with Spring Boot,Create microservices using Spring Boot framework.
+Data Analysis with Excel,Analyze data using Microsoft Excel.
+Introduction to Web Accessibility,Learn about web accessibility principles and practices.
+Building Progressive Web Apps (PWAs),Create progressive web applications for modern web.
+Advanced Python Programming,Explore advanced concepts in Python programming.
+Introduction to Responsive Web Design,Learn responsive web design techniques using CSS.
+Introduction to Machine Learning with R,Analyze and visualize data using R programming language.
+Creating Data Dashboards with Power BI,Build interactive data dashboards using Power BI.
+Building Serverless Applications on AWS,Explore serverless architecture using AWS services.
+Introduction to Data Analytics,Learn data analytics concepts and tools.
+Introduction to Mobile Game Development,Create mobile games for iOS and Android platforms.
+Introduction to Docker,Understand containerization using Docker.
+Exploring GraphQL,Learn to build APIs using GraphQL technology.
+Building Web Applications with ASP.NET,Develop web applications using ASP.NET framework.
+Introduction to Responsive Web Development,Understand responsive web design techniques.
+Data Analysis and Visualization with R,Analyze and visualize data using R programming language.
+Introduction to Cyber Threat Intelligence,Learn about cyber threat intelligence principles.
+Web Development with Bootstrap,Create responsive web designs using Bootstrap framework.
+Python for Finance,Analyze financial data and perform quantitative analysis.
+Introduction to Digital Forensics,Learn digital forensics techniques and tools.
+Designing RESTful APIs,Understand RESTful API design principles.
+JavaScript Frameworks: Angular vs React,Compare and contrast Angular and React frameworks.
+Introduction to Digital Twins,Explore digital twin technology and its applications.
+Introduction to Cloud Native Development,Learn cloud-native application development principles.
+Introduction to NoSQL Databases,Understand NoSQL database concepts and usage.
+Building Chat Applications with Socket.IO,Create real-time chat applications using Socket.IO.
+Introduction to Ethics in AI,Explore ethical considerations in artificial intelligence.
+Data Structures in JavaScript,Understand data structures and algorithms using JavaScript.
+Machine Learning with Python,Apply machine learning algorithms using Python libraries.
+Introduction to Data Governance,Learn data governance principles and frameworks.
+Building Mobile Apps with React Native,Create mobile applications using React Native framework.
+Introduction to Data Science with Python,Learn data science concepts using Python programming.
+Developing Web Applications with Django,Build web applications using Django framework.
+Introduction to Financial Modeling,Explore financial modeling techniques and best practices.
+Introduction to Game Design Principles,Understand core principles of game design.
+Building IoT Applications with Raspberry Pi,Develop IoT applications using Raspberry Pi.
+Introduction to Digital Product Management,Learn digital product management methodologies.
+Building Scalable Applications with AWS,Understand scalable architecture using AWS services.
+Introduction to Product Management,Explore product management concepts and processes.
+Developing Cross-Platform Apps with Xamarin,Build cross-platform mobile applications using Xamarin.
+Machine Learning for Data Analysis,Apply machine learning techniques for data analysis tasks.
+Introduction to Data Analytics with Python,Understand data analytics concepts and practices using Python.
+Building Interactive Dashboards with R Shiny,Create interactive dashboards using R Shiny framework.
+Data Analysis with SQL,Analyze data using SQL for querying relational databases.
+Introduction to React.js,Build user interfaces using React.js library.
+Introduction to Game Programming,Explore game programming concepts and techniques.
+Developing APIs with FastAPI,Create fast and efficient APIs using FastAPI framework.
+Introduction to Agile Project Management,Learn agile project management principles and practices.
+Introduction to FinTech,Explore the principles of financial technology and innovation.
+Building Real-Time Applications with Firebase,Develop real-time applications using Firebase services.
+Python for Web Development,Build web applications using Python frameworks.
+Introduction to Business Intelligence,Learn business intelligence concepts and practices.
+Building Cloud Applications with Google Cloud,Develop cloud applications using Google Cloud Platform.
+Introduction to Data Science with Excel,Analyze and visualize data using Excel for data science.
+Introduction to Digital Marketing Analytics,Explore analytics techniques for digital marketing campaigns.
+Developing Desktop Applications with Electron,Build cross-platform desktop applications using Electron.
+Data Visualization Techniques in Python,Learn various techniques for data visualization using Python.
+Introduction to Software Development Lifecycle,Understand the software development lifecycle and methodologies.
+Building Blockchain Applications with Ethereum,Develop blockchain applications using Ethereum technology.
+Introduction to Data Analytics in Business,Analyze data to drive business decisions.
+Cybersecurity Essentials,Understand essential concepts in cybersecurity practices.
+Building Data Pipelines with Apache Airflow,Create data pipelines using Apache Airflow for workflow automation.
+Introduction to Digital Strategy,Explore digital strategy concepts for business transformation.
+Developing APIs with Node.js,Create APIs using Node.js and Express framework.
+Introduction to Python for Data Science,Learn Python programming for data science applications.
+Building Serverless APIs with AWS Lambda,Create serverless APIs using AWS Lambda.
+Introduction to Kubernetes for Developers,Understand Kubernetes architecture and operations for developers.
+Building Applications with Django REST Framework,Create RESTful APIs using Django REST framework.
+Data Science for Business,Apply data science techniques to solve business problems.
+Introduction to Web Security,Understand web security principles and best practices.
+Advanced Data Science Techniques,Explore advanced techniques in data science and machine learning.
+Building Custom E-commerce Solutions,Create customized e-commerce solutions using modern frameworks.
+Introduction to Open Source Software,Learn the principles of open-source software development.
+Building Machine Learning Models with TensorFlow,Develop machine learning models using TensorFlow framework.
+Introduction to IT Project Management,Explore project management concepts for IT projects.
+Python for Web Scraping,Learn web scraping techniques using Python libraries.
+Introduction to Data Ethics,Understand ethical considerations in data handling and analysis.
+Building Interactive Websites with Flask,Create interactive web applications using Flask framework.
+Data Visualization with Plotly,Create interactive data visualizations using Plotly library.
+Introduction to Data-Driven Decision Making,Learn how to make decisions based on data analysis.
+Developing Mobile Games with Unity,Create mobile games using Unity game development engine.
+Introduction to Digital Product Design,Explore digital product design principles and methodologies.
+Building Web Applications with Ruby on Rails,Develop web applications using Ruby on Rails framework.
+Introduction to Financial Data Analysis,Analyze financial data for investment decision-making.
+Building Scalable Microservices with Spring,Create scalable microservices using Spring framework.
+Introduction to Python for Finance,Learn to analyze financial data using Python programming.
