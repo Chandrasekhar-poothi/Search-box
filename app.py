@@ -1,8 +1,11 @@
-import streamlit as st
+from flask import Flask, render_template, request, jsonify
 import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+
+# Initialize Flask app
+app = Flask(_name_)
 
 # Load the pre-trained model for embeddings
 model = SentenceTransformer('distilbert-base-nli-stsb-mean-tokens')
@@ -10,6 +13,7 @@ model = SentenceTransformer('distilbert-base-nli-stsb-mean-tokens')
 # Load the CSV file containing course data
 df = pd.read_csv('sample_courses.csv')
 
+# Ensure the CSV has columns 'title' and 'description'
 # Create embeddings for the course descriptions
 df['embedding'] = df['description'].apply(lambda x: model.encode(x))
 
@@ -20,50 +24,22 @@ def search_courses(query, df, model):
     top_3_indices = np.argsort(similarities[0])[-3:][::-1]  # Get top 3 indices in descending order
     return df.iloc[top_3_indices]
 
-# Add CSS to set a full background image
-st.markdown(
-    """
-    <style>
-    body {
-        background-image: url("static/background.jpg");  /* Path to your local image */
-        background-size: cover;  /* Cover the entire background */
-        background-position: center;  /* Center the image */
-        background-repeat: no-repeat;  /* No repeating of the image */
-        background-attachment: fixed;  /* Fixed position on scroll */
-        color: white;  /* White text color */
-    }
-    .container {
-        background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent background for the container */
-        padding: 30px;
-        border-radius: 10px;
-        max-width: 600px;
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
-        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);  /* Shadow effect */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# Flask route for the homepage
+@app.route('/')
+def home():
+    return render_template('index.html')
 
-# App Title
-st.markdown('<div class="container"><h1>Smart Course Recommendation Tool</h1>', unsafe_allow_html=True)
-
-# Form for searching courses
-with st.form(key='search_form'):
-    query = st.text_input('Enter course keywords:')
-    submit_button = st.form_submit_button(label='Search')
-
-# Check if the form is submitted
-if submit_button and query:
-    # Perform the search
+# Flask route for handling search requests
+@app.route('/search', methods=['POST'])
+def search():
+    query = request.form.get('query')  # Get query from form data
     top_courses = search_courses(query, df, model)
+    
+    # Create a list of top 3 course titles to return as JSON
+    top_courses_list = top_courses['title'].tolist()
+    
+    return jsonify(top_courses_list)
 
-    # Display the results
-    st.markdown('<h2>Top Course Recommendations:</h2>', unsafe_allow_html=True)
-    for index, course in enumerate(top_courses['title']):
-        st.write(f"{index + 1}. {course}")
-
-# Close the container div
-st.markdown('</div>', unsafe_allow_html=True)
+# Run Flask app
+if _name_ == "_main_":
+    app.run(debug=True)
