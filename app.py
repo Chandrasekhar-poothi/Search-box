@@ -41,5 +41,5 @@ def search():
     return jsonify(top_courses_list)
 
 # Run Flask app
-if __name__ == "__main__":  # Fixed the __name__ check
+if __name__ == "__main__": 
     app.run(debug=True)
