@@ -20,26 +20,27 @@ def search_courses(query, df, model):
     top_3_indices = np.argsort(similarities[0])[-3:][::-1]  # Get top 3 indices in descending order
     return df.iloc[top_3_indices]
 
-# Add CSS to set a background image
+# Add CSS to set a full background image
 st.markdown(
     """
     <style>
     body {
         background-image: url("static/background.jpg");  /* Path to your local image */
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        color: white;
+        background-size: cover;  /* Cover the entire background */
+        background-position: center;  /* Center the image */
+        background-repeat: no-repeat;  /* No repeating of the image */
+        background-attachment: fixed;  /* Fixed position on scroll */
+        color: white;  /* White text color */
     }
     .container {
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent background for the container */
         padding: 30px;
         border-radius: 10px;
         max-width: 600px;
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);  /* Shadow effect */
     }
     </style>
     """,
