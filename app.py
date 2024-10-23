@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+import os
 
 # Load the pre-trained model for embeddings
 model = SentenceTransformer('distilbert-base-nli-stsb-mean-tokens')
@@ -20,34 +21,35 @@ def search_courses(query, df, model):
     top_3_indices = np.argsort(similarities[0])[-3:][::-1]  # Get top 3 indices in descending order
     return df.iloc[top_3_indices]
 
-# Read external HTML and CSS files
-def load_html_and_css():
-    # Load HTML content
-    with open('templates/index.html', 'r', encoding='utf-8') as html_file:
-        html_content = html_file.read()
+# Function to load HTML and CSS content
+def load_css():
+    with open(os.path.join('static', 'styles.css')) as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-    # Load CSS content
-    with open('static/styles.css', 'r', encoding='utf-8') as css_file:
-        css_content = css_file.read()
-
-    return html_content, css_content
+def load_html():
+    with open(os.path.join('templates', 'index.html'), 'r') as f:
+        html_content = f.read()
+    st.markdown(html_content, unsafe_allow_html=True)
 
 # Streamlit app layout
-html_content, css_content = load_html_and_css()
+st.title('Smart Course Recommendation Tool')
 
-# Inject CSS into the Streamlit app
-st.markdown(f'<style>{css_content}</style>', unsafe_allow_html=True)
+# Load CSS
+load_css()
 
-# Display the HTML structure
-st.markdown(html_content, unsafe_allow_html=True)
+# Load HTML template
+load_html()
 
-# Input field for user query using Streamlit widget (integrated into your HTML)
-query = st.text_input('Enter your query:')
+# Input field for user query
+query = st.text_input('Enter course keywords:')
 
-if query:
-    # Perform search and display results
-    top_courses = search_courses(query, df, model)
-    st.markdown("<div id='results'><h2>Top 3 Recommended Courses:</h2>", unsafe_allow_html=True)
-    for index, course in enumerate(top_courses['title']):
-        st.markdown(f"<p class='result-title'>{index + 1}. {course}</p>", unsafe_allow_html=True)
-    st.markdown("</div>", unsafe_allow_html=True)
+# Submit button
+if st.button('Search'):
+    if query:
+        # Perform search and display results
+        top_courses = search_courses(query, df, model)
+        
+        st.write('Top 3 Recommended Courses:')
+        for index, course in enumerate(top_courses['title']):
+            st.write(f"{index + 1}. {course}")
+
