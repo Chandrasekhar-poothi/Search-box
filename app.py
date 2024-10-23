@@ -31,7 +31,7 @@ html_content = """
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url(''); /* Example background */
+            background-image: url('/static/background.jpg'); /* Example background */
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
